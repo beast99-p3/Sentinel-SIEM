@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="dashboard-center">
+  <div class="dashboard-card">
+    <!-- Page Header -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="fw-bold text-accent mb-0">Security Alerts</h2>
+      {% if total_alerts > 0 %}
+        <span class="badge bg-primary rounded-pill fs-6">{{ total_alerts }} Total Alerts</span>
+      {% endif %}
+    </div>
+
+    <!-- Filter and Sort Controls -->
+    <form method="get" action="{{ url_for('alerts') }}" class="row g-3 mb-4 p-3 bg-light rounded-3 border">
+      <div class="col-md-6">
+        <label for="filter_type" class="form-label fw-bold">Filter by Type</label>
+        <select name="filter_type" id="filter_type" class="form-select">
+          <option value="">All Types</option>
+          {% for type in unique_alert_types %}
+            <option value="{{ type }}" {% if type == filter_type %}selected{% endif %}>{{ type }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="col-md-6 d-flex align-items-end">
+        <button type="submit" class="btn btn-primary me-2">Apply Filter</button>
+        <a href="{{ url_for('alerts') }}" class="btn btn-secondary">Reset</a>
+      </div>
+    </form>
+
+    <!-- Alerts Table -->
+    {% if alerts and alerts|length > 0 %}
+      <div class="table-responsive">
+        <table class="table table-hover align-middle">
+          <thead class="table-light">
+            <tr>
+              <th scope="col" class="sortable" data-sort="timestamp">Timestamp</th>
+              <th scope="col" class="sortable" data-sort="type">Type</th>
+              <th scope="col" class="sortable" data-sort="ip">Source IP</th>
+              <th scope="col">Location</th>
+              <th scope="col">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for alert in alerts %}
+            <tr>
+              <td>{{ alert.display_timestamp }}</td>
+              <td>
+                <span class="badge" style="background-color: {{ alert_type_colors.get(alert.type, alert_type_colors['default']) }};">{{ alert.type }}</span>
+              </td>
+              <td class="font-monospace">{{ alert.ip or 'N/A' }}</td>
+              <td>
+                {% if alert.location and alert.location.country_code %}
+                  <span class="fi fi-{{ alert.location.country_code|lower }} me-2"></span> {{ alert.location.country_name }}
+                {% else %}
+                  <span class="text-muted">N/A</span>
+                {% endif %}
+              </td>
+              <td>{{ alert.description }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Pagination Controls (Updated to preserve state) -->
+      {% if total_pages > 1 %}
+      <nav aria-label="Alerts navigation">
+        <ul class="pagination justify-content-center mt-4">
+          <li class="page-item {% if page <= 1 %}disabled{% endif %}">
+            <a class="page-link" href="{{ url_for('alerts', page=page-1, sort_by=sort_by, sort_order=sort_order, filter_type=filter_type) }}">Previous</a>
+          </li>
+          {% for p in pagination_items %}
+            {% if p %}
+              <li class="page-item {% if p == page %}active{% endif %}">
+                <a class="page-link" href="{{ url_for('alerts', page=p, sort_by=sort_by, sort_order=sort_order, filter_type=filter_type) }}">{{ p }}</a>
+              </li>
+            {% else %}
+              <li class="page-item disabled"><span class="page-link">&hellip;</span></li>
+            {% endif %}
+          {% endfor %}
+          <li class="page-item {% if page >= total_pages %}disabled{% endif %}">
+            <a class="page-link" href="{{ url_for('alerts', page=page+1, sort_by=sort_by, sort_order=sort_order, filter_type=filter_type) }}">Next</a>
+          </li>
+        </ul>
+      </nav>
+      {% endif %}
+
+    {% else %}
+      <!-- No Alerts Message -->
+      <div class="alert alert-secondary text-center mt-4">
+        <h4 class="alert-heading">No Alerts Found</h4>
+        <p class="mb-0">No alerts match your current filter. Try resetting the filter to see all alerts.</p>
+      </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
+
+@app.route('/alerts')
+def alerts():
+    alerts_data = []
+    alerts_csv_path = 'reports/alerts.csv'
+    if os.path.exists(alerts_csv_path):
+        try:
+            alerts_df = pd.read_csv(alerts_csv_path)
+            if not alerts_df.empty and 'timestamp' in alerts_df.columns:
+                # Ensure timestamp column is datetime and sort by it
+                alerts_df['timestamp'] = pd.to_datetime(alerts_df['timestamp'])
+                alerts_df = alerts_df.sort_values(by='timestamp', ascending=False)
+            alerts_data = alerts_df.to_dict(orient='records')
+        except (EmptyDataError, pd.errors.ParserError):
+            # If file is empty or malformed, just show an empty page
+            flash('Could not parse alerts file. It might be empty or corrupted.', 'warning')
+            alerts_data = []
+            
+    return render_template('alerts.html', alerts=alerts_data)
+
+
+@app.route('/report')

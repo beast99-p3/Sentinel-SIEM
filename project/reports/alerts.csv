@@ -1,0 +1,501 @@
+type,ip,description,timestamp
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-11 02:09:20.249821
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-11 02:14:03.330443
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-11 02:45:27.470613
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-11 02:50:48.572824
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-11 02:53:54.783836
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-11 03:15:03.977377
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-11 03:50:20.289166
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-11 03:57:17.672271
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-11 04:20:11.354307
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-11 04:28:42.693015
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-11 04:33:31.652194
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-11 04:52:37.000309
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-11 05:10:09.275214
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-11 05:24:02.924115
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-11 05:29:03.427476
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-11 06:04:02.764934
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-11 06:09:22.411891
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-11 06:15:23.246853
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-11 07:16:18.085455
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-11 07:24:18.073626
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-11 07:25:06.035422
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-11 07:30:10.330916
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-11 08:24:00.985932
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-11 08:32:49.468369
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-11 08:34:51.790182
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-11 08:52:05.157380
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-11 09:03:50.991215
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-11 09:09:25.108813
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-11 09:16:28.701923
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-11 09:16:44.179709
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-11 09:22:01.774279
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-11 10:23:48.709087
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-11 10:32:22.218374
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-11 11:04:09.155080
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-11 11:40:10.408754
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-11 12:04:34.468501
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-11 12:22:58.796735
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-11 12:31:18.536655
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-11 12:32:01.363986
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-11 12:39:45.779627
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-11 12:41:47.191295
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-11 12:53:00.924568
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-11 13:07:56.548243
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-11 13:22:02.058144
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-11 13:26:38.703177
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-11 13:27:05.126874
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-11 13:27:26.777017
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-11 13:35:57.103152
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-11 14:09:05.258854
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-11 14:17:18.253901
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-11 14:31:02.978536
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-11 14:43:44.543043
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-11 16:06:39.815114
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-11 16:08:30.745330
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-11 16:24:36.068829
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-11 17:59:10.408445
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-11 18:16:32.313096
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-11 18:19:38.700078
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-11 18:23:26.615809
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-11 18:40:05.829620
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-11 18:41:17.757969
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-11 18:52:36.527807
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-11 19:02:08.061343
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-11 19:45:44.494381
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-11 20:13:13.303552
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-11 20:55:01.167445
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-11 22:34:45.832893
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-11 22:37:27.479924
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-11 22:55:32.409996
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-11 23:04:00.563519
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-11 23:24:09.306478
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-11 23:43:24.352595
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-11 23:46:51.733672
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-11 23:55:44.570196
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-12 00:09:47.573093
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-12 01:23:06.500134
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-12 01:27:31.363182
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-12 01:48:29.968488
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-12 02:08:09.476938
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-12 02:22:15.724916
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-12 03:06:45.507785
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-12 03:14:00.580804
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-12 03:34:29.983302
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-12 03:48:38.311481
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-12 03:58:41.187405
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-12 04:27:57.295948
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-12 04:43:58.161342
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-12 04:46:30.552020
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-12 05:20:34.082905
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-12 05:46:55.434752
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-12 05:58:53.121999
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-12 06:03:58.289615
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-12 07:32:30.452374
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-12 08:04:45.325542
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-12 08:14:34.479241
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-12 09:31:28.982976
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-12 09:38:55.987446
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-12 10:10:42.927026
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-12 10:18:27.570611
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-12 11:56:08.248290
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-12 12:09:01.320842
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-12 12:46:47.152465
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-12 12:53:47.138182
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-12 13:07:22.747827
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-12 13:51:51.508471
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-12 13:54:40.524841
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-12 13:55:34.170986
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-12 14:19:09.033039
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-12 14:53:43.527103
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-12 14:59:06.715715
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-12 15:01:02.966394
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-12 15:38:07.092178
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-12 16:05:59.084308
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-12 16:12:26.313565
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-12 16:18:07.460085
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-12 18:16:12.372217
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-12 18:49:59.538476
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-12 19:03:26.687605
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-12 19:46:41.456646
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-12 19:56:27.920958
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-12 20:00:37.285215
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-12 20:04:35.932680
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-12 20:09:55.279440
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-12 20:17:16.591181
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-12 21:08:28.288714
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-12 21:21:11.079197
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-12 22:00:11.651168
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-12 22:06:40.017964
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-12 22:21:34.740987
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-12 22:31:20.786459
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-12 23:30:18.304567
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-12 23:57:32.445718
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-13 00:17:16.586705
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-13 01:01:47.380949
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-13 02:26:08.585045
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-13 02:27:57.515487
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-13 02:53:48.893108
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-13 03:16:27.656190
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-13 03:45:47.472851
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-13 03:45:54.472708
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-13 03:52:27.130943
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-13 04:15:18.753194
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-13 04:27:37.610533
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-13 04:34:39.831510
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-13 04:40:34.627126
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-13 04:43:47.985888
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-13 04:46:55.812582
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-13 05:09:38.291152
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-13 06:04:04.991301
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-13 06:07:46.739723
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-13 06:10:44.923933
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-13 06:50:21.758405
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-13 07:06:23.740868
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-13 07:24:51.638718
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-13 08:14:23.895532
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-13 08:31:14.717729
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-13 09:33:41.427637
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-13 09:37:06.662818
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-13 09:42:12.620601
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-13 09:56:33.925252
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-13 10:04:08.300259
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-13 10:04:42.663200
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-13 10:26:58.751041
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-13 10:29:50.126011
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-13 10:46:07.759543
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-13 12:31:17.389924
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-13 12:42:18.689452
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-13 12:43:25.539313
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-13 12:52:56.367210
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-13 13:01:09.561418
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-13 13:26:49.622176
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-13 13:37:29.158579
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-13 13:39:05.596243
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-13 13:40:45.715716
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-13 13:52:00.500114
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-13 13:59:19.698426
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-13 15:12:15.724746
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-13 15:18:08.633061
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-13 15:38:36.378672
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-13 16:41:06.024576
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-13 17:11:17.962646
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-13 17:29:48.944442
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-13 17:51:16.599085
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-13 18:13:07.008676
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-13 18:16:35.078284
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-13 18:26:13.523698
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-13 19:22:27.597929
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-13 19:38:55.757285
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-13 20:06:23.561624
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-13 20:30:19.691959
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-13 21:11:26.658898
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-13 21:15:01.946080
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-13 21:20:26.558995
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-13 21:48:14.089994
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-13 22:18:33.535982
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-13 22:35:06.341626
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-13 22:58:27.774736
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-13 23:02:58.289563
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-13 23:08:40.098790
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-13 23:49:34.949585
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-14 00:02:00.839111
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-14 00:15:56.756327
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-14 00:34:26.548720
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-14 00:37:09.826352
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-14 00:51:14.560542
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-14 01:09:23.865354
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-14 01:15:56.789812
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-14 01:55:44.382896
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-14 01:57:06.322626
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-14 03:17:02.250421
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-14 03:23:59.441265
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-14 03:24:46.544338
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-14 04:12:27.307841
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-14 04:13:39.937421
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-14 04:57:04.516847
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-14 05:02:26.742131
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-14 06:12:18.210878
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-14 06:29:59.261231
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-14 06:37:55.275258
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-14 06:58:39.423188
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-14 07:33:00.474523
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-14 08:07:32.956272
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-14 08:17:09.809254
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-14 08:36:04.587128
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-14 09:01:32.349188
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-14 09:14:19.413075
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-14 10:15:37.615085
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-14 10:31:57.894460
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-14 10:36:52.310367
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-14 10:38:38.843741
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-14 11:16:33.190972
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-14 11:16:49.962913
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-14 11:27:19.783599
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-14 11:36:57.910595
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-14 11:52:42.127030
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-14 12:02:32.626365
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-14 12:12:57.925989
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-14 12:15:16.371125
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-14 12:15:50.954490
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-14 12:19:10.440551
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-14 12:29:48.046462
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-14 12:32:27.504777
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-14 12:32:44.612620
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-14 12:49:22.636590
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-14 13:08:41.157715
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-14 13:49:06.084519
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-14 14:43:40.353835
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-14 15:13:54.603773
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-14 15:28:46.605255
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-14 15:56:14.676607
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-14 16:04:15.078523
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-14 16:27:26.620800
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-14 16:41:00.937044
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-14 17:11:08.840250
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-14 17:12:43.460199
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-14 17:23:27.563658
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-14 18:02:28.036796
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-14 18:10:41.489241
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-14 18:13:00.528123
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-14 18:21:09.682955
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-14 18:23:33.685634
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-14 18:27:48.967548
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-14 18:54:49.059757
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-14 19:15:39.375222
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-14 19:16:54.489085
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-14 19:21:16.543621
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-14 19:26:15.037825
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-14 19:55:42.681119
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-14 20:34:00.746321
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-14 20:41:09.479730
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-14 21:03:10.286943
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-14 22:08:13.768147
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-14 22:55:42.079686
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-14 23:07:31.492015
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-14 23:16:47.220669
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-14 23:41:56.365415
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-15 00:24:46.968675
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-15 00:28:36.027129
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-15 00:30:34.548140
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-15 00:33:32.487934
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-15 01:02:48.855127
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-15 01:11:40.825033
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-15 01:23:44.312155
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-15 01:40:05.339035
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-15 02:13:23.023618
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-15 02:23:06.684539
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-15 03:24:59.373387
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-15 03:39:47.904377
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-15 04:34:26.949805
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-15 04:41:14.928251
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-15 04:56:35.236381
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-15 04:59:49.806421
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-15 05:15:52.126839
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-15 05:41:52.582249
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-15 05:53:57.455335
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-15 06:08:51.427956
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-15 06:12:17.435721
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-15 06:45:04.965558
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-15 07:06:11.105719
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-15 07:06:31.874444
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-15 07:35:49.585245
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-15 07:55:37.166925
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-15 08:27:26.399159
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-15 09:10:02.474945
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-15 09:30:13.620599
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-15 10:23:23.733643
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-15 10:53:34.685857
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-15 10:57:55.959816
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-15 11:04:23.794731
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-15 11:06:58.709803
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-15 12:06:46.005476
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-15 13:22:08.400041
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-15 13:35:58.836301
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-15 14:09:25.533840
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-15 14:11:58.069888
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-15 14:32:01.272234
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-15 14:34:10.370480
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-15 14:38:23.948075
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-15 14:43:38.380226
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-15 15:15:18.315618
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-15 15:29:33.325501
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-15 15:48:03.919918
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-15 15:49:30.696457
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-15 15:51:17.703743
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-15 15:59:09.627040
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-15 16:21:48.188547
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-15 16:31:03.924354
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-15 16:31:42.050951
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-15 16:53:53.145078
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-15 17:02:23.705783
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-15 17:06:52.722508
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-15 17:10:14.480731
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-15 17:34:41.620856
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-15 17:46:09.238297
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-15 18:06:40.745336
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-15 18:14:22.766761
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-15 18:39:43.218266
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-15 18:41:58.134442
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-15 18:46:53.754647
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-15 18:59:37.083315
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-15 19:01:06.229528
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-15 19:03:06.725466
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-15 19:09:17.812541
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-15 19:18:48.872707
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-15 19:35:22.836263
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-15 19:55:27.142780
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-15 20:38:27.590437
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-15 20:49:32.730804
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-15 21:29:54.967268
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-15 22:08:43.948710
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-15 22:18:36.113237
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-15 22:37:25.495660
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-15 22:58:29.349546
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-16 00:16:20.521400
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-16 00:19:43.461954
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-16 00:44:09.369602
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-16 00:57:01.173437
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-16 01:03:38.038178
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-16 01:10:27.988467
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-16 01:14:43.976616
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-16 01:27:30.827600
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-16 01:29:23.616861
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-16 01:42:53.044396
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-16 01:50:44.140936
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-16 02:28:06.911058
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-16 02:34:33.898510
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-16 02:52:21.743680
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-16 02:58:05.773070
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-16 04:02:15.115114
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-16 04:03:52.275074
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-16 04:22:04.242324
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-16 04:53:37.719093
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-16 05:37:41.933175
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-16 05:42:10.429414
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-16 05:52:34.355585
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-16 05:53:33.098333
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-16 06:16:53.754544
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-16 06:33:54.334679
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-16 06:42:17.302948
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-16 06:47:45.353401
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-16 06:58:17.503540
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-16 07:03:04.567516
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-16 07:09:55.170741
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-16 07:24:46.506005
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-16 07:37:35.078031
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-16 08:15:39.187364
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-16 09:07:24.778125
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-16 09:09:24.414696
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-16 10:01:47.957653
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-16 11:11:18.398211
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-16 11:33:39.199846
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-16 12:05:37.002344
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-16 12:40:26.063995
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-16 12:52:05.684038
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-16 13:05:10.118462
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-16 13:10:53.666652
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-16 13:14:04.771232
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-16 13:17:08.848728
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-16 13:23:34.705392
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-16 13:31:54.944160
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-16 13:31:57.868291
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-16 14:01:49.501270
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-16 14:04:13.042930
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-16 14:06:53.218786
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-16 14:47:24.270090
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-16 15:45:17.829461
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-16 15:49:23.553065
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-16 16:07:42.802848
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-16 16:14:15.967602
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-16 16:15:24.412316
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-16 16:22:29.256682
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-16 16:26:40.521618
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-16 16:27:51.191896
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-16 16:38:26.489031
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-16 17:43:42.022074
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-16 17:58:36.945087
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-16 18:00:45.278220
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-16 18:03:42.868594
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-16 18:13:05.326983
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-16 18:46:26.601154
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-16 19:35:24.843096
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-16 20:33:58.628928
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-16 20:46:22.156944
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-16 21:31:45.089473
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-16 21:47:25.929645
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-16 21:49:38.969036
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-16 22:21:35.517841
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-17 00:10:41.232966
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-17 00:19:56.317620
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-17 00:24:24.156456
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-17 01:23:34.754317
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-17 01:27:04.141229
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-17 01:38:04.703483
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-17 02:01:48.912320
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-17 02:07:09.493048
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-17 02:41:09.118813
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-17 03:03:15.510016
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-17 03:40:14.396107
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-17 03:59:35.842813
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-17 04:10:57.026264
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-17 05:37:48.368851
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-17 05:53:08.448672
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-17 06:04:41.343940
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-17 07:27:45.149272
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-17 07:55:56.288139
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-17 08:53:31.440975
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-17 09:56:39.244880
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-17 10:08:21.267198
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-17 10:09:52.075768
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-17 10:55:42.754707
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-17 10:59:40.157316
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-17 11:16:05.526821
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-17 11:37:40.106741
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-17 11:42:21.388781
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-17 11:43:32.407877
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-17 11:58:24.179450
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-17 12:20:41.970094
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-17 13:23:21.831175
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-17 13:29:03.974701
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-17 13:58:58.702056
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-17 14:18:28.177498
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-17 14:41:33.077864
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-17 15:03:03.794593
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-17 15:39:02.027896
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-17 16:12:38.042510
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-17 16:24:39.463686
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-17 16:29:04.664962
+Brute Force,172.16.0.50,Detected brute force activity from IP 172.16.0.50,2025-06-17 16:33:24.960796
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-17 16:33:36.327212
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-17 16:34:26.341829
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-17 16:41:58.750669
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-17 16:49:41.081179
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-17 17:04:35.756078
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-17 17:20:31.132026
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-17 17:22:41.487981
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-17 18:50:17.343804
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-17 18:55:29.585652
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-17 18:59:24.642349
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-17 19:00:49.632947
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-17 19:51:30.442936
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-17 19:59:47.699037
+Port Scan,198.51.100.12,Detected port scan activity from IP 198.51.100.12,2025-06-17 20:20:55.417243
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-17 20:29:42.216453
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-17 20:43:40.583025
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-17 20:48:12.589239
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-17 20:54:15.334554
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-17 21:31:09.829694
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-17 21:43:56.123342
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-17 21:56:58.179493
+Blacklisted IP,1.2.3.4,Connection from blacklisted IP 1.2.3.4,2025-06-17 22:11:14.936706
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-17 22:25:35.600619
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-17 22:28:04.944133
+Brute Force,10.0.0.5,Detected brute force activity from IP 10.0.0.5,2025-06-17 22:34:04.622557
+Blacklisted IP,5.6.7.8,Connection from blacklisted IP 5.6.7.8,2025-06-17 22:41:48.763843
+Brute Force,192.168.1.101,Detected brute force activity from IP 192.168.1.101,2025-06-17 23:19:04.584060
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-17 23:43:41.020365
+Port Scan,203.0.113.45,Detected port scan activity from IP 203.0.113.45,2025-06-18 00:20:21.352280
+Port Scan,10.0.0.5,Detected port scan activity from IP 10.0.0.5,2025-06-18 00:24:59.625651
+Anomaly,192.168.1.150,Detected anomaly activity from IP 192.168.1.150,2025-06-18 01:37:23.784772
+Anomaly,172.17.0.2,Detected anomaly activity from IP 172.17.0.2,2025-06-18 01:45:01.154364

@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="dashboard-center">
+  <div class="dashboard-card" style="max-width: 700px;">
+    <h2 class="fw-bold text-accent mb-4">Upload & Analyze Log File</h2>
+    <p class="text-muted mb-4">Select one or more log files (.log, .txt, .json) to scan for security threats. A detailed report will be generated upon completion.</p>
+    
+    <form method="post" enctype="multipart/form-data" class="mb-4">
+      <div class="input-group mb-3">
+        <input class="form-control" type="file" id="log_files" name="log_files" required multiple>
+        <button class="btn btn-primary" type="submit"><i class="bi bi-cloud-upload me-2"></i>Analyze</button>
+      </div>
+    </form>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, message in messages %}
+          <div class="alert alert-{{ category or 'info' }} alert-dismissible fade show" role="alert">
+            {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    {% if report %}
+      <div class="alert alert-success mt-4">
+        <h4 class="alert-heading"><i class="bi bi-check-circle-fill me-2"></i>Analysis Complete</h4>
+        <p>{{ report.summary }}</p>
+        <hr>
+        <p class="mb-0">You can download the report for this specific scan here:</p>
+        <a href="{{ url_for('report_download', filename=report.filename) }}" class="btn btn-success mt-2">
+          <i class="bi bi-download me-2"></i>Download Report ({{ report.filename }})
+        </a>
+      </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

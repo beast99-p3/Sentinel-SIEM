@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="dashboard-center">
+  <div class="dashboard-card" id="dashboard-container">
+    <h2 class="mb-4 fw-bold text-accent">Dashboard Overview</h2>
+
+    <!-- New: Highlighted Call-to-Action Card for Uploading Logs -->
+    <div class="row mb-4">
+      <div class="col-12">
+        <div class="card text-white bg-primary shadow-lg upload-cta-card">
+          <div class="card-body text-center p-4">
+            <h4 class="card-title mb-3"><i class="bi bi-cloud-upload-fill me-2"></i>Start a New Security Scan</h4>
+            <p class="card-text lead mb-4">This is the starting point. Upload one or more log files to begin the analysis.</p>
+            <a href="{{ url_for('upload_logs') }}" class="btn btn-light btn-lg fw-bold px-5">Upload Logs Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Row 1: Stat Cards -->
+    <div class="row g-4 mb-4">
+      <div class="col-md-4">
+        <div class="stat-card"><div class="stat-label">Total Logs Scanned</div><div class="stat-value text-success" id="stats-total-logs"><div class="spinner-border spinner-border-sm"></div></div></div>
+      </div>
+      <div class="col-md-4">
+        <div class="stat-card"><div class="stat-label">Total Threats Found</div><div class="stat-value text-danger" id="stats-threats-detected"><div class="spinner-border spinner-border-sm"></div></div></div>
+      </div>
+      <div class="col-md-4">
+        <div class="stat-card"><div class="stat-label">Total Alerts</div><div class="stat-value text-warning" id="stats-alerts"><div class="spinner-border spinner-border-sm"></div></div></div>
+      </div>
+    </div>
+
+    <!-- Row 2: Main Charts -->
+    <div class="row g-4">
+      <div class="col-lg-5">
+        <div class="card h-100"><div class="card-body d-flex flex-column" id="threat-types-container"><h5 class="card-title text-accent"><i class="bi bi-pie-chart-fill me-2"></i>Threat Types</h5><div class="flex-grow-1 d-flex align-items-center justify-content-center"><div class="spinner-border text-primary" role="status"></div></div></div></div>
+      </div>
+      <div class="col-lg-7">
+        <div class="card h-100"><div class="card-body d-flex flex-column" id="alerts-over-time-container"><h5 class="card-title text-accent"><i class="bi bi-graph-up-arrow me-2"></i>Alerts Over Last 7 Days</h5><div class="flex-grow-1 d-flex align-items-center justify-content-center"><div class="spinner-border text-primary" role="status"></div></div></div></div>
+      </div>
+    </div>
+
+    <!-- Row 3: Tables and Lists -->
+    <div class="row g-4 mt-4">
+      <div class="col-lg-5">
+        <div class="card h-100"><div class="card-body" id="top-ips-container"><h5 class="card-title text-accent"><i class="bi bi-shield-exclamation me-2"></i>Top Offending IPs</h5><div class="text-center"><div class="spinner-border text-primary" role="status"></div></div></div></div>
+      </div>
+      <div class="col-lg-7">
+        <div class="card h-100"><div class="card-body d-flex flex-column" id="recent-alerts-container"><h5 class="card-title text-accent"><i class="bi bi-bell-fill me-2"></i>Recent Alerts</h5><div class="flex-grow-1 d-flex align-items-center justify-content-center"><div class="spinner-border text-primary" role="status"></div></div></div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Scripts are now just links. No inline data. -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+{% endblock %}

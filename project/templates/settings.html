@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="dashboard-center">
+  <div class="dashboard-card" style="max-width: 900px;">
+    <h2 class="mb-4 fw-bold text-accent"><i class="bi bi-gear-fill me-2"></i>Settings</h2>
+    
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, message in messages %}
+          <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+            {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Manage IP Blacklist</h5>
+        <p class="card-text text-muted">Add or remove IP addresses from the blacklist. Enter one IP address per line. Lines starting with # are ignored as comments.</p>
+        <form method="post" action="{{ url_for('settings') }}">
+          <div class="mb-3">
+            <textarea class="form-control font-monospace" id="blacklist" name="blacklist" rows="15">{{ blacklist_content }}</textarea>
+          </div>
+          <button type="submit" class="btn btn-primary"><i class="bi bi-save me-2"></i>Save Blacklist</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

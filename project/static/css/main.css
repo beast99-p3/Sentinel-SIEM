@@ -1,0 +1,232 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e0e7ef 0%, #c9e7ff 100%);
+    color: #232946;
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background: #1f2937 !important; /* Dark gray background */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    padding: 0.75rem 1.5rem;
+}
+.navbar-brand {
+    color: #fff !important;
+    font-size: 1.5rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 600;
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link.active {
+    background-color: #2563eb; /* Use the existing accent color */
+    color: #fff;
+    box-shadow: 0 0 10px rgba(37, 99, 235, 0.5);
+}
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.7%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-brand img {
+    margin-right: 8px;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 700;
+}
+.dashboard-center {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 70vh;
+    padding: 2vw 0;
+}
+
+.dashboard-card {
+    background: #fff;
+    border-radius: 2rem;
+    padding: 2.5rem;
+    box-shadow: 0 8px 40px rgba(37, 99, 235, 0.1);
+    max-width: 1400px; /* Increased width for a wider dashboard */
+    width: 95%;
+    margin: 40px auto;
+    border: 1px solid #e0e7ef;
+}
+
+.text-accent {
+    color: #2563eb;
+}
+.bg-accent {
+    background: #2563eb !important;
+    color: #fff !important;
+}
+
+/* --- New: Color classes for each alert type --- */
+.badge-brute-force { background-color: #e11d48 !important; }
+.badge-port-scan { background-color: #f59e42 !important; }
+.badge-anomaly { background-color: #a21caf !important; }
+.badge-blacklisted-ip { background-color: #16a34a !important; }
+.badge-default { background-color: #2563eb !important; }
+
+
+/* --- New: Styles for the highlighted upload card --- */
+.upload-cta-card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.upload-cta-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(37, 99, 235, 0.3) !important;
+}
+.upload-cta-card .btn-light {
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+.upload-cta-card .btn-light:hover {
+    background-color: #f8f9fa;
+    transform: scale(1.05);
+}
+
+.stat-card {
+    background: #f4f6fb;
+    border-radius: 1.5rem;
+    padding: 1.2rem 0 0.7rem 0;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px #2563eb22;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.stat-card:hover {
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 0 24px #2563eb44;
+}
+.stat-label {
+    font-size: 1.1em;
+    color: #5e6472;
+    margin-bottom: 6px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+.stat-value {
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.recent-alerts-list {
+    max-height: 180px;
+    overflow-y: auto;
+    background: #f4f6fb;
+    border-radius: 1rem;
+    margin-bottom: 0;
+}
+.list-group-item {
+    background: transparent;
+    color: #232946;
+    border: none;
+    font-size: 1.05em;
+}
+.table {
+    background: #f4f6fb;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.table th, .table td {
+    color: #232946 !important;
+    border: none;
+    background: transparent !important;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #e0e7ef !important;
+}
+.alert-info, .alert-secondary {
+    border-radius: 1rem;
+    font-size: 1.1em;
+    background: #e0e7ef;
+    color: #232946;
+    border: none;
+}
+.btn-primary, .bg-primary {
+    background-color: #2563eb !important;
+    border-color: #2563eb !important;
+}
+.btn-success, .bg-success {
+    background-color: #059669 !important;
+    border-color: #059669 !important;
+}
+.btn-outline-success {
+    color: #059669 !important;
+    border-color: #059669 !important;
+}
+.btn-outline-success:hover {
+    background-color: #059669 !important;
+    color: #fff !important;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    background: #e0e7ef;
+}
+::-webkit-scrollbar-thumb {
+    background: #2563eb;
+    border-radius: 4px;
+}
+/* Card and Chart Styles */
+.card {
+    background: #fff;
+    border: 1px solid #e0e7ef;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    height: 100%;
+}
+.card-body {
+    padding: 1.5rem;
+}
+.card-title {
+    margin-bottom: 1.25rem;
+}
+.chart-container {
+    position: relative;
+    width: 100%;
+}
+.list-group-flush .list-group-item {
+    padding-left: 0;
+    padding-right: 0;
+}
+@media (max-width: 991px) {
+    .dashboard-card {
+        padding: 1.2rem 0.5rem 1.2rem 0.5rem;
+        max-width: 98vw;
+    }
+    .dashboard-center {
+        padding: 0;
+    }
+}
+@media (max-width: 767px) {
+    .dashboard-card {
+        margin-top: 10px;
+        padding: 0.7rem 0.2rem 1rem 0.2rem;
+        border-radius: 1rem;
+    }
+    .stat-card {
+        font-size: 1em;
+        padding: 0.7rem 0 0.5rem 0;
+        border-radius: 1rem;
+    }
+    .stat-value {
+        font-size: 1.5em;
+    }
+    .recent-alerts-list {
+        font-size: 0.95em;
+    }
+    .table th, .table td {
+        font-size: 0.95em;
+    }
+}

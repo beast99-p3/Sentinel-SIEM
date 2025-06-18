@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="dashboard-center">
+  <div class="dashboard-card">
+    <h2 class="fw-bold text-accent mb-4">Generated Reports</h2>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, message in messages %}
+          <div class="alert alert-{{ category or 'info' }} alert-dismissible fade show" role="alert">
+            {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    {% if reports and reports|length > 0 %}
+      <div class="table-responsive">
+        <table class="table table-hover align-middle">
+          <thead>
+            <tr>
+              <th><i class="bi bi-file-earmark-text me-2"></i>Filename</th>
+              <th><i class="bi bi-calendar-event me-2"></i>Date Modified</th>
+              <th><i class="bi bi-hdd me-2"></i>Size</th>
+              <th class="text-end">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for report in reports %}
+              <tr>
+                <td class="fw-bold">{{ report.filename }}</td>
+                <td>{{ report.modified }}</td>
+                <td>{{ report.size }}</td>
+                <td class="text-end">
+                  <a href="{{ url_for('report_download', filename=report.filename) }}" class="btn btn-outline-success btn-sm me-2" title="Download">
+                    <i class="bi bi-download"></i> Download
+                  </a>
+                  <form action="{{ url_for('delete_report', filename=report.filename) }}" method="POST" class="d-inline" onsubmit="return confirm('Are you sure you want to delete this report?');">
+                    <button type="submit" class="btn btn-outline-danger btn-sm" title="Delete">
+                      <i class="bi bi-trash"></i> Delete
+                    </button>
+                  </form>
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    {% else %}
+      <div class="alert alert-secondary text-center">
+        <h4 class="alert-heading">No Reports Found</h4>
+        <p>Upload a log file from the "Upload Logs" page to generate a new report.</p>
+      </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
+
+import pandas as pd
+import os
+from datetime import datetime
+
+def generate_report(filename, logs, alerts):
+    """
+    Generates a report with a unique timestamp in its filename.
+    """
+    # Get the base name of the log file without extension
+    base_name = os.path.splitext(filename)[0]
+    
+    # Create a unique timestamp string (e.g., 20250617_153005)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    
+    # Create a unique report name
+    report_name = f"{base_name}_report_{timestamp}.csv"
+    report_path = os.path.join("reports", report_name)
+    
+    # Ensure the reports directory exists
+    os.makedirs("reports", exist_ok=True)
+    
+    if alerts:
+        df = pd.DataFrame(alerts)
+        df.to_csv(report_path, index=False)
+    else:
+        # Create an empty file if there are no alerts to report
+        with open(report_path, 'w') as f:
+            f.write("type,ip,description\n") # Example header
+            
+    return report_path

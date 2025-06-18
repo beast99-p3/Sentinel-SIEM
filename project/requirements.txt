@@ -1,0 +1,8 @@
+Flask
+pandas
+geoip2
+numpy
+requests
+python-dotenv
+elasticsearch
+watchdog
