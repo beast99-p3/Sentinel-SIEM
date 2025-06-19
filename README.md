@@ -71,6 +71,18 @@ project/
 └── requirements.txt
 ```
 
+## Future Roadmap & Planned Enhancements
+
+Here are some of the features and improvements planned for future versions of SIEM Sentinel:
+
+- Database Integration: Replace the current CSV-based alert system with a robust database like SQLite or PostgreSQL for better performance and scalability.
+- Real-Time Threat Intelligence: Integrate with a live threat intelligence API (e.g., AbuseIPDB) to check IPs against up-to-the-minute global blacklists.
+- Configurable Detection Rules: Add options in the Settings page to allow users to customize detection thresholds (e.g., number of failed logins for a brute-force alert).
+- Live Alerting & Notifications: Implement a system to send real-time alerts via Email or Slack/Discord webhooks when high-severity threats are detected.
+- User Authentication: Add a secure login system to restrict access to the dashboard and settings.
+- Interactive World Map: Create a map visualization on the dashboard to show the geographic origin of threats.
+- Containerization with Docker: Develop a Dockerfile to make the application easy to deploy and run in any environment.
+
 ## License
 
 This project is licensed under the MIT License.
