@@ -1,0 +1,39 @@
+# Local backlog (edit in place; mark lines completed, do not delete)
+Technical Update.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+project/venv/
+env/
+
+# Environment and secrets
+.env
+.env.*
+
+# GeoIP database (download separately; do not commit)
+*.mmdb
+
+# Runtime uploads and generated reports (uncomment if you want untracked)
+# uploads/
+# project/uploads/
+# project/reports/*.csv
+
+# Test / tooling
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
